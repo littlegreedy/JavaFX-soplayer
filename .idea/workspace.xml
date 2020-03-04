@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LibraPlayer:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LibraPlayer" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\server\maven\repository" />
+        <option name="mavenHome" value="D:/Program Files/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Program Files\maven\setting.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XpJBy9HEiBAhxKjJHp8qyi1dR2" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pers/ap/soplayer/controlpane" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="jprofiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\LibraPlayer\src\pers\ap\soplayer\controlpane" />
+      <recent name="F:\Java\LibraPlayer\src\pers\ap\soplayer\service" />
+      <recent name="F:\Java\LibraPlayer\src\pers\ap\soplayer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pers.ap.soplayer.ToolKit" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java\LibraPlayer\src\pers\ap\soplayer\controlpane" />
+      <recent name="F:\Java\LibraPlayer\src\layout" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Field">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Field" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.ap.soplayer.controlpane.Field" />
+      <module name="LibraPlayer" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=GBK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.ap.soplayer.controlpane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IniConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.ap.soplayer.toolKit.IniConfig" />
+      <module name="LibraPlayer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.ap.soplayer.toolKit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.controlpane.Main" />
+      <module name="LibraPlayer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.controlpane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.cap.soplayer.controlpane.Main" />
+      <module name="LibraPlayer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.cap.soplayer.controlpane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="controlpane.Main" />
+      <module name="LibraPlayer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controlpane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.ap.soplayer.controlpane.Main" />
+      <module name="LibraPlayer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.ap.soplayer.controlpane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.ap.soplayer.controlpane.Run" />
+      <module name="LibraPlayer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.ap.soplayer.controlpane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Field" />
+      <item itemvalue="Application.IniConfig" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Run" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Field" />
+        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.IniConfig" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="76" key="#Notifications" timestamp="1583251269341">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="76" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1583251269341" />
+    <state x="361" y="76" key="#Project_Structure" timestamp="1582873405661">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="76" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1582873405661" />
+    <state x="499" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583060176292">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1583060176292" />
+    <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583111307608">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1583111307608" />
+    <state x="470" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581748474680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="470" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1581748474680" />
+    <state x="399" y="155" key="#com.intellij.ide.util.ExportDialog" timestamp="1582383484619">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="399" y="155" key="#com.intellij.ide.util.ExportDialog/0.0.1536.834@0.0.1536.834" timestamp="1582383484619" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1583059408266">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1583059408266" />
+    <state x="499" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583327116168">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1583327116168" />
+    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583301487767">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1583301487767" />
+    <state x="552" y="302" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583123253167">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="552" y="302" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1583123253167" />
+    <state x="385" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583225336538">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="385" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1583225336538" />
+    <state x="499" y="164" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583110143069">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.834@0.0.1536.834" timestamp="1583110143069" />
+    <state x="481" y="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583136925541">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="481" y="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1583136925541" />
+    <state width="493" height="449" key="DebuggerActiveHint" timestamp="1583112968847">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="493" height="449" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1583112968846" />
+    <state width="292" height="442" key="Diff.GoToChangePopup" timestamp="1582899098375">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="292" height="442" key="Diff.GoToChangePopup/0.0.1536.834@0.0.1536.834" timestamp="1582899098375" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1582899664002">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1582899664002" />
+    <state x="270" y="157" width="438" height="546" key="FileChooserDialogImpl" timestamp="1583326968621">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="157" width="438" height="546" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583326968621" />
+    <state width="1492" height="134" key="GridCell.Tab.0.bottom" timestamp="1583336598981">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="134" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583336598981" />
+    <state width="1492" height="134" key="GridCell.Tab.0.center" timestamp="1583336598981">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="134" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1583336598981" />
+    <state width="1492" height="134" key="GridCell.Tab.0.left" timestamp="1583336598981">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="134" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1583336598981" />
+    <state width="1492" height="134" key="GridCell.Tab.0.right" timestamp="1583336598981">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="134" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1583336598981" />
+    <state width="1492" height="225" key="GridCell.Tab.1.bottom" timestamp="1583304438560">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="225" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583304438560" />
+    <state width="1492" height="225" key="GridCell.Tab.1.center" timestamp="1583304438560">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="225" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1583304438560" />
+    <state width="1492" height="225" key="GridCell.Tab.1.left" timestamp="1583304438560">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="225" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1583304438560" />
+    <state width="1492" height="225" key="GridCell.Tab.1.right" timestamp="1583304438560">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="225" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1583304438560" />
+    <state x="374" y="0" key="SettingsEditor" timestamp="1583327155083">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="374" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1583327155083" />
+    <state x="62" y="125" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1582900591371">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="62" y="125" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1582900591371" />
+    <state x="449" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1583334141814">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1583334141814" />
+    <state x="489" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583227853149">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="489" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1583227853149" />
+    <state x="447" y="16" width="642" height="801" key="find.popup" timestamp="1582726884592">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="447" y="16" width="642" height="801" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1582726884592" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1582474066616">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.834@0.0.1536.834" timestamp="1582474066616" />
+    <state x="114" y="70" width="170" height="100" key="net.trustx.simpleuml.components.BirdViewFrame" timestamp="1583243469164">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="114" y="70" width="170" height="100" key="net.trustx.simpleuml.components.BirdViewFrame/0.0.1536.834@0.0.1536.834" timestamp="1583243469164" />
+    <state x="178" y="55" key="new project wizard" timestamp="1582951107055">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="55" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1582951107055" />
+    <state x="470" y="45" key="refactoring.ChangeSignatureDialog" timestamp="1582628780680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="470" y="45" key="refactoring.ChangeSignatureDialog/0.0.1536.834@0.0.1536.834" timestamp="1582628780680" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1583304689016">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1583304689016" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1583251208160">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1583251208160" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/layout/MySystemTray.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/layout/MySystemTray.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/layout/MySystemTray.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/layout/MySystemTray.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/service/view/Information.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/controlpane/Player.java</url>
+          <line>595</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/layout/MySystemTray.java</url>
+          <line>107</line>
+          <properties class="pers.ap.soplayer.layout.MySystemTray">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LibraPlayer$Main.ic" NAME="Main Coverage Results" MODIFIED="1582555556978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>controlpane.*</FILTER>
+    </SUITE>
+  </component>
+</project>
