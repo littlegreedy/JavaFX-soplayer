@@ -5,8 +5,11 @@
 **描述**
 
 采用 JavaFX 组件完成的一款小巧、界面精美的本地音乐播放器，使用.ini 文件记录应用设置信息。 
+****
 
+文档说明： [doc](https://github.com/littlegreedy/JavaFX-soplayer/blob/master/doc/Java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A%20-%20%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8.pdf)
 
+****
 
 
 **已实现模块：**
@@ -37,11 +40,14 @@
 
 ****
 
- **[开放源代码许可](https://github.com/littlegreedy/JavaFX-soplayer/master/LICENSE)**
+ **[开放源代码许可](https://github.com/littlegreedy/JavaFX-soplayer/blob/master/LICENSE.md)**
 
- **转载请注明原作者** : [](https://github.com/littlegreedy/JavaFX-soplayer)
+ **转载请注明原作者** : [littleGreedy](https://github.com/littlegreedy/JavaFX-soplayer)
 
 ****
+
+
+
 
 
 
