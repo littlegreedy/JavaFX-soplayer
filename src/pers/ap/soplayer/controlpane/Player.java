@@ -10,9 +10,7 @@ import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.geometry.Insets;
 import javafx.geometry.Rectangle2D;
-import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.*;
 import javafx.scene.layout.*;
@@ -135,11 +133,10 @@ public class Player {
     /**
      * 部分功能类声明
      */
-
+    MenuService menuService;  //歌曲列表菜单服务
     FileParty fileParty;   //文件添加，方式——选择器
     FileDrag fileDrag;     //文件添加，方式——拖动
     SetBackground newBackground; //图片文件添加，方式——拖动
-    MenuService menuService;  //歌曲列表菜单服务
     ChartsSpectrumData chartsSpectrumData; //频谱图
 
     //时钟类
@@ -166,12 +163,6 @@ public class Player {
         /**
          * 功能类初始化
          */
-
-         //数据库操作接口—— 添加歌曲和歌词文件
-        fileParty=new FileParty(database);
-        fileDrag=new FileDrag(database);
-        fileDrag.invokeFileDrag(ap,menuService);
-
 
 
         // 歌词模块
@@ -209,6 +200,10 @@ public class Player {
         //托盘模块
         MySystemTray.getInstance().listen(stage);
 
+        //数据库操作接口—— 添加歌曲和歌词文件
+        fileParty=new FileParty(database);
+        fileDrag=new FileDrag(database);
+        fileDrag.invokeFileDrag(ap,menuService);
 
 
         //图标模块
