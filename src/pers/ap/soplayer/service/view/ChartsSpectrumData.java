@@ -50,7 +50,18 @@ public class ChartsSpectrumData {
      */
     public void refurbishRecChart(float[] magnitudes,boolean showPic){
         //更新高度数据并绘制矩形阵频谱
-        if(showPic) return;
+        //仅做一次判断
+        if(showPic) {
+            for (int i = 0; i < rectangle_num; i++) {
+//            rectangles[i].setX(startX+i* ChartsSpectrumData.getShift(width));
+//            rectangles[i].setY(startY);
+//                rectangles[i].setWidth(width);
+                rectangles[i].setHeight(0);
+//                rectangles[i].setRotate(-180);
+
+            }
+            return;
+        }
         for(int i=0;i<rectangle_num;i++) {
 //            rectangles[i].setX(startX+i* ChartsSpectrumData.getShift(width));
 //            rectangles[i].setY(startY);
@@ -77,7 +88,18 @@ public class ChartsSpectrumData {
      */
     public  void refurbishCirChart(float[] magnitudes,boolean showPic){
         //更新高度数据并绘制环形阵频谱   showPic为false代表展示频谱，不展示海报
-        if(showPic) return;
+        //一层if
+        if(showPic) {
+            for (int i = 0; i < rectangle_num; i++) {
+//            rectangles[i].setX(startX+i* ChartsSpectrumData.getShift(width));
+//            rectangles[i].setY(startY);
+//                rectangles[i].setWidth(width);
+                rectangles2[i].setHeight(0);
+//                rectangles[i].setRotate(-180);
+
+            }
+            return;
+        }
         for(int i=0;i<rectangle_num;i++){
             rectangles2[i].setHeight(ChartsSpectrumData.handleMagnitudes(magnitudes[i])*IniConfig.getD("heightRatio"));
         }
