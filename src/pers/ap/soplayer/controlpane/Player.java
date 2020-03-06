@@ -882,8 +882,8 @@ public class Player {
         int i=0;
         while(true) {
             i = (int) (Math.random() * mList.size());
-           if(i!=index) break;
-
+            //不可重复播放同一首歌，size等于1则可以重复播放同一首歌
+           if(i!=index || mList.size()==1) break;
         }
 //        Collections.shuffle(mList);
         //计算随机数
