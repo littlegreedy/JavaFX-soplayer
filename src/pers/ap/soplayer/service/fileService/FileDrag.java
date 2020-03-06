@@ -71,6 +71,7 @@ public class FileDrag {
                 //拖拽板
                 Dragboard db=event.getDragboard();
                 if(db.hasFiles()) {
+//                    System.out.println("666");
                     List<File> rawFiles = db.getFiles();
 //                    List<File> files = filter(rawFiles);
 //                    FileHandler fileHandler=new FileHandler();

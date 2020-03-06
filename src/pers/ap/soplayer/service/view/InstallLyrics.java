@@ -212,7 +212,9 @@ public class InstallLyrics {
      * @param root 外界面板，用来设置歌词面板锚定的位置
      */
     public void initLyrics(AnchorPane root) {
-        ap.setBackground(new Background(new BackgroundFill(Color.color(0.5,0.5,0.5,0.4),new CornerRadii(15),null)));//Color.valueOf("#696961")
+        ap.setBackground(new Background(new BackgroundFill(Color.color(0.5,0.5,0.5,0.3),new CornerRadii(15),null)));//Color.valueOf("#696961")
+
+
         // ap.setPrefSize(width,height);
         ap.setAlignment(Pos.CENTER);
         ap.setPrefSize(IniConfig.getI("lyricsBoxPreWidth"),IniConfig.getI("lyricsBoxPrefHeight"));
@@ -340,8 +342,15 @@ public class InstallLyrics {
         return lyricText;
     }
 
+    public VBox getLyricPane(){
+        return  ap;
+    }
     public Iterator getIter(){
         return iter;
+    }
+
+    public void setLyricsPane(float op){
+       ap.setOpacity(op);
     }
 
     /**

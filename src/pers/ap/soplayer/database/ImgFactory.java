@@ -36,7 +36,11 @@ public class ImgFactory {
         String imLoop1=this.getClass().getClassLoader().getResource("pers/ap/soplayer/img/icon_hover/loop-one-hover.png").toExternalForm();
         String imVolumeless=this.getClass().getClassLoader().getResource("pers/ap/soplayer/img/icon_hover/volumeless-hover.png").toExternalForm();
         String  imPicture=this.getClass().getClassLoader().getResource("pers/ap/soplayer/img/icon_hover/picture-hover.png").toExternalForm();
-
+        String imUsage1 = this.getClass().getClassLoader().getResource("pers/ap/soplayer/img/icon_img/usage1.png").toExternalForm();
+        String imUsage2   = this.getClass().getClassLoader().getResource("pers/ap/soplayer/img/icon_img/usage2.png").toExternalForm();
+        String imForward   = this.getClass().getClassLoader().getResource("pers/ap/soplayer/img/icon_img/ForwardDark.png").toExternalForm();
+        String imBack   = this.getClass().getClassLoader().getResource("pers/ap/soplayer/img/icon_img/BackDark.png").toExternalForm();
+        String imUsage3   = this.getClass().getClassLoader().getResource("pers/ap/soplayer/img/icon_img/usage3.png").toExternalForm();
 
         flyweights.put("stage_icon",new ImgEntity(
                 this.getClass().getClassLoader().getResource("pers/ap/soplayer/img/icon_other/stage_icon.png").toExternalForm()));
@@ -58,8 +62,11 @@ public class ImgFactory {
         flyweights.put("loop2_hover",new ImgEntity(imLoop2));
         flyweights.put("loop1_hover",new ImgEntity(imLoop1));
         flyweights.put("picture_hover",new ImgEntity(imPicture));
-
-
+        flyweights.put("usage1",new ImgEntity(imUsage1));
+        flyweights.put("usage2",new ImgEntity(imUsage2));
+        flyweights.put("forward_image",new ImgEntity(imForward));
+        flyweights.put("back_image",new ImgEntity(imBack));
+        flyweights.put("usage3",new ImgEntity(imUsage3));
     }
 
     /**

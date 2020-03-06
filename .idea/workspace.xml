@@ -117,17 +117,22 @@
     <property name="settings.editor.selected.configurable" value="jprofiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Java\LibraPlayer\src\pers\ap\soplayer\controlpane" />
-      <recent name="F:\Java\LibraPlayer\src\pers\ap\soplayer\service" />
-      <recent name="F:\Java\LibraPlayer\src\pers\ap\soplayer" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pers.ap.soplayer.ToolKit" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Java\LibraPlayer\src\pers\ap\soplayer\controlpane" />
       <recent name="F:\Java\LibraPlayer\src\layout" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pers.ap.soplayer.controlpane" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pers.ap.soplayer.service.view" />
+      <recent name="pers.ap.soplayer.ToolKit" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\LibraPlayer\src\pers\ap\soplayer\controlpane" />
+      <recent name="F:\Java\LibraPlayer\src\pers\ap\soplayer\layout" />
+      <recent name="F:\Java\LibraPlayer\src\pers\ap\soplayer\service" />
+      <recent name="F:\Java\LibraPlayer\src\pers\ap\soplayer" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Field">
@@ -368,18 +373,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1583327116168" />
-    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583301487767">
+    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583388961982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1583301487767" />
-    <state x="552" y="302" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583123253167">
+    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1583388961982" />
+    <state x="552" y="302" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583422044083">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="552" y="302" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1583123253167" />
-    <state x="385" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583225336538">
+    <state x="552" y="302" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1583422044083" />
+    <state x="123" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583458527309">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="385" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1583225336538" />
+    <state x="123" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1583458527309" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583454786671">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1583454786671" />
     <state x="499" y="164" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583110143069">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -388,10 +397,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="481" y="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1583136925541" />
-    <state width="493" height="449" key="DebuggerActiveHint" timestamp="1583112968847">
+    <state width="493" height="449" key="DebuggerActiveHint" timestamp="1583426572669">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="493" height="449" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1583112968846" />
+    <state width="493" height="449" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1583426572669" />
     <state width="292" height="442" key="Diff.GoToChangePopup" timestamp="1582899098375">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -400,54 +409,58 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1582899664002" />
-    <state x="270" y="157" width="438" height="546" key="FileChooserDialogImpl" timestamp="1583326968621">
+    <state x="270" y="157" width="438" height="546" key="FileChooserDialogImpl" timestamp="1583455017537">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="270" y="157" width="438" height="546" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583326968621" />
-    <state width="1492" height="134" key="GridCell.Tab.0.bottom" timestamp="1583336598981">
+    <state x="270" y="157" width="438" height="546" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583455017537" />
+    <state width="1492" height="225" key="GridCell.Tab.0.bottom" timestamp="1583460903623">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="134" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583336598981" />
-    <state width="1492" height="134" key="GridCell.Tab.0.center" timestamp="1583336598981">
+    <state width="1492" height="225" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583460903623" />
+    <state width="1492" height="225" key="GridCell.Tab.0.center" timestamp="1583460903622">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="134" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1583336598981" />
-    <state width="1492" height="134" key="GridCell.Tab.0.left" timestamp="1583336598981">
+    <state width="1492" height="225" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1583460903622" />
+    <state width="1492" height="225" key="GridCell.Tab.0.left" timestamp="1583460903622">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="134" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1583336598981" />
-    <state width="1492" height="134" key="GridCell.Tab.0.right" timestamp="1583336598981">
+    <state width="1492" height="225" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1583460903622" />
+    <state width="1492" height="225" key="GridCell.Tab.0.right" timestamp="1583460903623">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="134" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1583336598981" />
-    <state width="1492" height="225" key="GridCell.Tab.1.bottom" timestamp="1583304438560">
+    <state width="1492" height="225" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1583460903623" />
+    <state width="1492" height="225" key="GridCell.Tab.1.bottom" timestamp="1583460903623">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="225" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583304438560" />
-    <state width="1492" height="225" key="GridCell.Tab.1.center" timestamp="1583304438560">
+    <state width="1492" height="225" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583460903623" />
+    <state width="1492" height="225" key="GridCell.Tab.1.center" timestamp="1583460903623">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="225" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1583304438560" />
-    <state width="1492" height="225" key="GridCell.Tab.1.left" timestamp="1583304438560">
+    <state width="1492" height="225" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1583460903623" />
+    <state width="1492" height="225" key="GridCell.Tab.1.left" timestamp="1583460903623">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="225" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1583304438560" />
-    <state width="1492" height="225" key="GridCell.Tab.1.right" timestamp="1583304438560">
+    <state width="1492" height="225" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1583460903623" />
+    <state width="1492" height="225" key="GridCell.Tab.1.right" timestamp="1583460903623">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="225" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1583304438560" />
+    <state width="1492" height="225" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1583460903623" />
     <state x="374" y="0" key="SettingsEditor" timestamp="1583327155083">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="374" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1583327155083" />
-    <state x="62" y="125" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1582900591371">
+    <state width="775" height="424" key="XDebugger.FullValuePopup" timestamp="1583426575010">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="62" y="125" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1582900591371" />
-    <state x="449" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1583334141814">
+    <state width="775" height="424" key="XDebugger.FullValuePopup/0.0.1536.834@0.0.1536.834" timestamp="1583426575010" />
+    <state x="62" y="125" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1583455027039">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1583334141814" />
+    <state x="62" y="125" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1583455027039" />
+    <state x="449" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1583455397106">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1583455397106" />
     <state x="489" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583227853149">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -485,42 +498,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/layout/MySystemTray.java</url>
-          <line>143</line>
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/layout/MySystemTray.java</url>
-          <line>110</line>
-          <option name="timeStamp" value="105" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/layout/MySystemTray.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="106" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/layout/MySystemTray.java</url>
-          <line>117</line>
-          <option name="timeStamp" value="107" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/service/view/Information.java</url>
           <line>60</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/controlpane/Player.java</url>
-          <line>595</line>
-          <option name="timeStamp" value="119" />
+          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/toolKit/FileHandler.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/layout/MySystemTray.java</url>
-          <line>107</line>
-          <properties class="pers.ap.soplayer.layout.MySystemTray">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="104" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/toolKit/FileHandler.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/toolKit/FileHandler.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pers/ap/soplayer/toolKit/FileHandler.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="125" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

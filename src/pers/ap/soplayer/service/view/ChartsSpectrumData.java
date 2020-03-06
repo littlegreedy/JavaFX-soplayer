@@ -94,7 +94,6 @@ public class ChartsSpectrumData {
      */
     public Effect designEffect(double x, double y, double h, double w, Paint color){
         ColorInput c=new ColorInput();
-
         c.setX(x);
         c.setY(y);
         c.setHeight(h);

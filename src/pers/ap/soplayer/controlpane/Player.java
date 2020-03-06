@@ -1,5 +1,6 @@
 package pers.ap.soplayer.controlpane;
 
+import javafx.application.Platform;
 import javafx.beans.InvalidationListener;
 import javafx.beans.Observable;
 import javafx.beans.value.ChangeListener;
@@ -27,13 +28,13 @@ import pers.ap.soplayer.database.Database;
 import pers.ap.soplayer.database.ImgFactory;
 import pers.ap.soplayer.database.SongFile;
 import pers.ap.soplayer.layout.ButtonHover;
-import pers.ap.soplayer.layout.MySystemTray;
 import pers.ap.soplayer.service.fileService.FileParty;
 import pers.ap.soplayer.service.fileService.FileDrag;
 import pers.ap.soplayer.service.fileService.SetBackground;
 import pers.ap.soplayer.service.menu.MenuCofig;
 import pers.ap.soplayer.service.menu.MenuService;
 import pers.ap.soplayer.toolKit.IniConfig;
+//import  pers.ap.soplayer.controlpane.MySystemTray;
 import java.util.ArrayList;
 
 
@@ -59,7 +60,8 @@ public class Player {
     private boolean showPic=true;
     //    声音是否静默
     private  boolean isMute=false;
-
+    //歌词面板显示
+    private  boolean lyricsPane=true;
     /**
      * 配置用到的数据
      */
@@ -113,8 +115,12 @@ public class Player {
     ImageView iVSong=new ImageView();  //海报图片
     Slider sVolume = new Slider();  //音量条
     Slider sPlayBack = new Slider(); //播放进度条
-    RadioMenuItem rMI1;  //右键弹出菜单
-    RadioMenuItem rMI2;  //右键弹出菜单
+
+    RadioMenuItem rMI1;  //set Background
+    RadioMenuItem rMI1_opacity; //歌词展示
+    RadioMenuItem rMI2;  //play information
+    RadioMenuItem rMI3;  //usage
+
 
     /**
      * 图片
@@ -138,6 +144,7 @@ public class Player {
     FileDrag fileDrag;     //文件添加，方式——拖动
     SetBackground newBackground; //图片文件添加，方式——拖动
     ChartsSpectrumData chartsSpectrumData; //频谱图
+    AboutEffect aboutEffect=new AboutEffect();  //用法说明
 
     //时钟类
      Clock current=new Clock();
@@ -197,15 +204,14 @@ public class Player {
             }
         });
 
-        //托盘模块
-        MySystemTray.getInstance().listen(stage);
 
         //数据库操作接口—— 添加歌曲和歌词文件
         fileParty=new FileParty(database);
         fileDrag=new FileDrag(database);
         fileDrag.invokeFileDrag(ap,menuService);
 
-
+        //about
+//        aboutEffect.startAbout(imgFactory);
         //图标模块
 
         ImageView backgroundPic=imgFactory.getImgFlyweight("background_img").getView(IniConfig.getI("PLAYERWIDTH"),IniConfig.getI("PLAYERHEIGHT"));
@@ -469,21 +475,74 @@ public class Player {
 
         //场景图弹出菜单 单选模式
         rMI1=new RadioMenuItem("默认皮肤");
+        rMI1_opacity=new RadioMenuItem("歌词显示");
         rMI2=new RadioMenuItem("歌曲详情");
+        rMI3=new RadioMenuItem("用法说明");
         ToggleGroup toggleGroup=new ToggleGroup();
         rMI1.setToggleGroup(toggleGroup);
+        rMI1_opacity.setToggleGroup(toggleGroup);
         rMI2.setToggleGroup(toggleGroup);
+        rMI3.setToggleGroup(toggleGroup);
         ContextMenu contextMenu=new ContextMenu();
-        contextMenu.getItems().addAll(rMI1,rMI2);
-        rMI1.setOnAction(event -> {
-            newBackground.defaultImg();
-        });
+        contextMenu.getItems().addAll(rMI1,rMI1_opacity,rMI2,rMI3);
         stage.addEventHandler(MouseEvent.MOUSE_CLICKED,  (MouseEvent  me) ->  {
             if (me.getButton() == MouseButton.SECONDARY  || me.isControlDown())  {
                 contextMenu.show(stage, me.getScreenX(), me.getScreenY());
             } else  {
-                contextMenu.hide();     }
+                contextMenu.hide();
+               }
         });
+        rMI1.setOnAction(event -> {
+            newBackground.defaultImg();
+        });
+
+
+//        rMI1_opacity.setSelected(true);
+//        sOpacityL.setMaxWidth(100);
+//        sOpacityL.setMinWidth(100);
+////            sPlayBack.setMin(0);
+//        sOpacityL.setValue(40);
+//        System.out.println( sOpacityL.showTickLabelsProperty());
+        rMI1_opacity.setOnAction(event -> {
+            if(lyricsPane){
+                rMI1_opacity.setSelected(false);
+                installLyrics.getLyricPane().setVisible(false);
+                lyricsPane=false;
+
+            }
+            else{
+
+                rMI1_opacity.setSelected(true);
+                installLyrics.getLyricPane().setVisible(true);
+                lyricsPane=true;
+            }
+        });
+
+        rMI3.setOnAction(event -> {
+            aboutEffect.startAbout(imgFactory);
+        });
+
+//            float opacity=0.4f;
+//            ap.getChildren().add(sOpacityL);
+//            sOpacityL.setLayoutX(me.getScreenX());
+//            sOpacityL.setLayoutY(me.getScreenY());
+//
+//            sOpacityL.showTickLabelsProperty().bindBidirectional(rMI1_opacity.selectedProperty());
+//
+////            rMI1_opacity.addEventHandler(MouseEvent.MOUSE_CLICKED,(MouseEvent me)->{
+//
+//            System.out.println(rMI1_opacity.selectedProperty());
+//            System.out.println( sOpacityL.showTickLabelsProperty());
+////                if (me.getButton() == MouseButton.SECONDARY  || me.isControlDown()){
+////                    sOpacityL.setLayoutX(me.getScreenX());
+////                    sOpacityL.setLayoutY(me.getScreenY());
+////                }
+////            });
+////            ap.getChildren().remove(sOpacityL);
+//            installLyrics.setLyricsPane(opacity);
+
+
+
 
 //        ap.setOnContextMenuRequested(new EventHandler<ContextMenuEvent>() {
 //            @Override
@@ -558,7 +617,9 @@ public class Player {
 
         StackPane rootS=new StackPane();
         //栈面板设置背景图
+//        rootS.setBackground(new Background(new BackgroundFill(Color.color(0.5,0.5,0.5,0.1),new CornerRadii(IniConfig.getI("BorderPaneCornerRadius")),null)));//Color.valueOf("#696961")
         rootS.getChildren().addAll(backgroundPic,rootBP);
+
 
 
         return rootS;
@@ -581,27 +642,28 @@ public class Player {
         }catch (Exception e){
             e.printStackTrace();
         }
-        try {
+
             //mediaplayer状态为就绪
-        mPlayer.setOnReady(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    //刷新显示信息
-                    updateSongInfo();
-                    //同步及调整音量大小
-                    synchronizedVolume();
-                    //同步及调整播放时间
-                    synchronizedTime();
-                }catch (Exception e){
-                    e.printStackTrace();
-                }
-            }
-
-        });
-        }catch (Exception e) {
-            e.printStackTrace();
-
+           Platform.runLater(new Runnable() {
+               @Override
+               public void run() {
+                   mPlayer.setOnReady(new Runnable() {
+                       @Override
+                       public void run() {
+                           try {
+                               //刷新显示信息
+                               updateSongInfo();
+                               //同步及调整音量大小
+                               synchronizedVolume();
+                               //同步及调整播放时间
+                               synchronizedTime();
+                           }catch (Exception e){
+                               e.printStackTrace();
+                           }
+                       }
+                   });
+               }
+           });
 //        mPlayer.setOnMarker(new EventHandler<MediaMarkerEvent>() {
 //            @Override
 //            public void handle(MediaMarkerEvent event) {
@@ -609,7 +671,6 @@ public class Player {
 //                //event.getMarker().getKey().equals()
 //            }
 //        });
-        }
     }
 
     /**
@@ -626,18 +687,26 @@ public class Player {
         }catch (Exception e){
             e.printStackTrace();
         }
-        mPlayer.setOnReady(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    updateSongInfo();
-                    synchronizedVolume();
-                    synchronizedTime();
-            }catch (Exception e){
-                e.printStackTrace();
-            }
-            }
-        });
+         Platform.runLater(new Runnable() {
+             @Override
+             public void run() {
+                 mPlayer.setOnReady(new Runnable() {
+                     @Override
+                     public void run() {
+                         try {
+                             //刷新显示信息
+                             updateSongInfo();
+                             //同步及调整音量大小
+                             synchronizedVolume();
+                             //同步及调整播放时间
+                             synchronizedTime();
+                         }catch (Exception e){
+                             e.printStackTrace();
+                         }
+                     }
+                 });
+             }
+         });
 
 
 //        mPlayer.setOnMarker(new EventHandler<MediaMarkerEvent>() {

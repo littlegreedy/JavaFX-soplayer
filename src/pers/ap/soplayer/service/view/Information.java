@@ -25,13 +25,13 @@ public class Information {
 
     /**
      * 歌曲详情页面
-     * @param rMI2 控件——弹出菜单项
+     * @param rMI 控件——弹出菜单项
      * @param mPlayer 播放数据
      * @param map   媒体数据
      * @param img 图片
      */
-    public  static void songInfoRepresent(RadioMenuItem rMI2, MediaPlayer mPlayer, ObservableMap<String,Object> map, Image img) {
-        rMI2.setOnAction(event -> {
+    public  static void songInfoRepresent(RadioMenuItem rMI, MediaPlayer mPlayer, ObservableMap<String,Object> map, Image img) {
+        rMI.setOnAction(event -> {
             Stage stageInfo = new Stage();
             Text aboutTxt=new Text();
 //                    aboutTxt.setTextAlignment(TextAlignment.CENTER);

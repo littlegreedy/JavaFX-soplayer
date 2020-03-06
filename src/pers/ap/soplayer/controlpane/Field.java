@@ -33,6 +33,8 @@ public class Field extends Application {
         Database database =new Database();
         //播放类
         Player player=new Player(database,fF);
+        //系统托盘
+        Controller.deploySystemTray(primaryStage,player,fF);
 
         Scene scene = new Scene(player.theStoryBegins(primaryStage), PLAYERWIDTH, PLAYERHEIGHT);
         primaryStage.setScene(scene);
