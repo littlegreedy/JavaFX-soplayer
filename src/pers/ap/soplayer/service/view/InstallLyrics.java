@@ -263,10 +263,10 @@ public class InstallLyrics {
          try {
              //词曲匹配
              File f = matchLyricsFile(songFile,lFile);
+             //删除之前存放的歌词
+             killLyrics(lyrics);
              //放置null指针错误
              if(f==null) return;
-             //如果匹配到，则删除之前存放的歌词
-             killLyrics(lyrics);
              //读取文件
              FileInputStream fis = new FileInputStream(f);
              InputStreamReader isr = new InputStreamReader(fis,"gbk"); //指定以gbk编码读入
@@ -327,7 +327,11 @@ public class InstallLyrics {
      * @param lyrics 歌词哈希表
      */
     private void killLyrics( TreeMap<Long,String> lyrics) {
-        lyrics.clear();
+        try {
+            lyrics.clear();
+        }catch (NullPointerException e){
+            e.printStackTrace();
+        }
         for(int i=0;i<nn;i++) {
             lyricText[i].setText(" ");
         }
