@@ -15,7 +15,6 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import pers.ap.soplayer.toolKit.Clock;
 import pers.ap.soplayer.toolKit.IniConfig;
-import pers.ap.soplayer.toolKit.InitializeException;
 import pers.ap.soplayer.toolKit.UnlimitedAppend;
 
 /**
@@ -31,6 +30,8 @@ public class Information {
      * @param img 图片
      */
     public  static void songInfoRepresent(RadioMenuItem rMI, MediaPlayer mPlayer, ObservableMap<String,Object> map, Image img) {
+//        if(map==null) return;
+//        System.out.println(map);
         rMI.setOnAction(event -> {
             Stage stageInfo = new Stage();
             Text aboutTxt=new Text();
@@ -58,11 +59,18 @@ public class Information {
 //            sB.append(map.get("genre").toString());
 
             //拼接字符串
-            StringBuffer sB  = UnlimitedAppend.appendAll("曲名:\n",map.get("title").toString(),
-                    "\n\n歌手:\n",map.get("artist").toString(),
-                    "\n\n专辑:\n",map.get("album").toString(),
-                    "\n\n时长: ",Integer.toString(sTime.getMinutes()),":",Integer.toString(sTime.getSeconds()),
-                    "                                      genre: ",map.get("genre").toString());
+            StringBuffer sB=new StringBuffer();
+            try {
+                 sB= UnlimitedAppend.appendAll("曲名:\n", map.get("title").toString(),
+                        "\n\n歌手:\n", map.get("artist").toString(),
+                        "\n\n专辑:\n", map.get("album").toString(),
+                        "\n\n时长: ", Integer.toString(sTime.getMinutes()), ":", Integer.toString(sTime.getSeconds())
+                 );
+                sB.append("                                         genre: ");
+                sB.append(map.get("genre").toString());
+            }catch (NullPointerException exception){
+                exception.printStackTrace();
+            }
 
             //设置文本
             aboutTxt.setText(sB.toString());
@@ -90,6 +98,7 @@ public class Information {
      * @param color 字体颜色
      */
     public  static void info_to_Label(Label label,ObservableMap<String,Object> map,String info,Font font,Color color){
+//        if(map==null) return;
         label.setMaxWidth(IniConfig.getI("labelMaxWidth"));
         label.setAlignment(Pos.CENTER);
         label.setText((String) map.get(info));
@@ -104,6 +113,7 @@ public class Information {
      * @param map   媒体数据
      */
     public  static void info_to_Image(Label labelView,ImageView iVSong,ObservableMap<String,Object> map){
+//        if(map==null) return;
         iVSong.setImage((Image)map.get("image"));
 //        iVSong.setPreserveRatio(true);
         iVSong.setFitWidth(IniConfig.getI("ImageViewSongFitWidth"));
