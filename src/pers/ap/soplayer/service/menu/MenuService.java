@@ -56,4 +56,8 @@ public class MenuService {
 //            e.printStackTrace();
 //        }
     }
+
+    public void delete_from_list(int index){
+        items.remove(index);
+    }
 }

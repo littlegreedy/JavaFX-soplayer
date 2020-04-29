@@ -11,10 +11,17 @@ public class UnlimitedAppend {
     public static StringBuffer appendAll(String... args){
         StringBuffer stringBuffer=new StringBuffer();
         for(String str: args){
-            stringBuffer.append(str);
+            try {
+                stringBuffer.append(str);
+            }catch (NullPointerException e){
+                e.printStackTrace();
+            }
         }
         return stringBuffer;
     }
+
+
+
 
 //    public static String appendAll2String(String... args){
 //        StringBuffer stringBuffer=new StringBuffer();

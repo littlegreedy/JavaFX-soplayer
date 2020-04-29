@@ -91,12 +91,7 @@ public class ChartsSpectrumData {
         //一层if
         if(showPic) {
             for (int i = 0; i < rectangle_num; i++) {
-//            rectangles[i].setX(startX+i* ChartsSpectrumData.getShift(width));
-//            rectangles[i].setY(startY);
-//                rectangles[i].setWidth(width);
                 rectangles2[i].setHeight(0);
-//                rectangles[i].setRotate(-180);
-
             }
             return;
         }

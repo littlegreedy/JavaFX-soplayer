@@ -119,6 +119,7 @@ public class Player {
     RadioMenuItem rMI1;  //set Background
     RadioMenuItem rMI1_opacity; //歌词展示
     RadioMenuItem rMI2;  //play information
+    RadioMenuItem rMI2R;  //delete song
     RadioMenuItem rMI3;  //usage
 
 
@@ -152,9 +153,10 @@ public class Player {
 
 
     //构造器
-    Player(Database database, ImgFactory iF){
+    Player(Database database, ImgFactory iF,MenuService menuService){
         this.database = database;
-        imgFactory=iF;
+        this.imgFactory=iF;
+        this.menuService=menuService;
     }
 
 
@@ -193,7 +195,7 @@ public class Player {
         //菜单模块
         MenuCofig menuCofig=new MenuCofig();
         menuCofig.createMenu(ap);
-        menuService=new MenuService();
+
         menuService.initMenu(menuCofig.getMenuVBox());   //初始化歌单
         menuService.lVMenu.getSelectionModel().selectedItemProperty().addListener(new InvalidationListener(){
             @Override
@@ -477,14 +479,16 @@ public class Player {
         rMI1=new RadioMenuItem("默认皮肤");
         rMI1_opacity=new RadioMenuItem("歌词显示");
         rMI2=new RadioMenuItem("歌曲详情");
+        rMI2R=new RadioMenuItem("删除歌曲");
         rMI3=new RadioMenuItem("用法说明");
         ToggleGroup toggleGroup=new ToggleGroup();
         rMI1.setToggleGroup(toggleGroup);
         rMI1_opacity.setToggleGroup(toggleGroup);
+        rMI2R.setToggleGroup(toggleGroup);
         rMI2.setToggleGroup(toggleGroup);
         rMI3.setToggleGroup(toggleGroup);
         ContextMenu contextMenu=new ContextMenu();
-        contextMenu.getItems().addAll(rMI1,rMI1_opacity,rMI2,rMI3);
+        contextMenu.getItems().addAll(rMI1,rMI1_opacity,rMI2,rMI2R,rMI3);
         stage.addEventHandler(MouseEvent.MOUSE_CLICKED,  (MouseEvent  me) ->  {
             if (me.getButton() == MouseButton.SECONDARY  || me.isControlDown())  {
                 contextMenu.show(stage, me.getScreenX(), me.getScreenY());
@@ -516,6 +520,11 @@ public class Player {
                 installLyrics.getLyricPane().setVisible(true);
                 lyricsPane=true;
             }
+        });
+
+        rMI2R.setOnAction(event -> {
+            menuService.delete_from_list(index+1);
+            database.clear(index);
         });
 
         rMI3.setOnAction(event -> {
@@ -725,15 +734,12 @@ public class Player {
             //控制下一首和后一首
             if (MARK==Mark.NEXT) {
                 index++;
-//                index = mList.indexOf(mPlayer.getMedia()) + 1;
-//                System.out.println("mPlayer.getMedia(): "+mPlayer.getMedia().getSource());
                 if (index >= mList.size()) {
                     index = 0;
                 }
             }
             else if(MARK==Mark.LAST){
                 index--;
-//                index = mList.indexOf(mPlayer.getMedia()) - 1;
                 if (index < 0) {
                     index = mList.size() - 1;
                 }

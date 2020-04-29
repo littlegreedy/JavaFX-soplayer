@@ -36,10 +36,9 @@ public class FileHandler {
                 if ( Unique.goUniqueSong(database.getListSong(),f)) {
                     System.out.println(f.getName());
                     SongFile musicItem = new SongFile(f.getName(), f.toURI().toString(),new Media(f.toURI().toString()));
-
-                    database.add(musicItem);  //add
+                    database.add(musicItem,menuService);  //add
                     try {
-                        menuService.add_to_list(musicItem.getName());
+//                        menuService.add_to_list(musicItem.getName());
                     }catch (Exception e){
                         e.printStackTrace();
                     }

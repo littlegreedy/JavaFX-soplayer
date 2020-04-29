@@ -16,6 +16,7 @@ import pers.ap.soplayer.database.LyricsFile;
 import pers.ap.soplayer.database.SongFile;
 
 import java.io.*;
+import java.net.URLDecoder;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -267,8 +268,11 @@ public class InstallLyrics {
              killLyrics(lyrics);
              //放置null指针错误
              if(f==null) return;
+
+             String winTojavaPath=f.getPath().replace("file:\\","").replace("\\","/");
+             System.out.println("wTj: "+winTojavaPath);
              //读取文件
-             FileInputStream fis = new FileInputStream(f);
+             FileInputStream fis = new FileInputStream(winTojavaPath);
              InputStreamReader isr = new InputStreamReader(fis,"gbk"); //指定以gbk编码读入
              BufferedReader br = new BufferedReader(isr);
              String thisLine;
@@ -378,7 +382,7 @@ public class InstallLyrics {
      * @param lFile  歌词文件列表指针
      * @return 歌词文件 or NULL
      */
-    private File matchLyricsFile(SongFile songFile, ArrayList<LyricsFile> lFile)  {
+    public static File matchLyricsFile(SongFile songFile, ArrayList<LyricsFile> lFile)  {
         for(LyricsFile lF:lFile) {
 //            System.out.println(SmallHandleFile.getFileName(lF.getName())+SmallHandleFile.getFileName(URLDecoder.decode( media.getSource(), "UTF-8" )));
 //            if(SmallHandleFile.getFileName(lF.getName()).equals(SmallHandleFile.getFileName(URLDecoder.decode( media.getSource(), "UTF-8" )))){
