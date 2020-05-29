@@ -7,7 +7,7 @@
 采用 JavaFX 组件完成的一款小巧、界面精美的本地音乐播放器，使用.ini 文件记录应用设置信息。 
 ****
 
-文档说明： [doc](https://github.com/littlegreedy/JavaFX-soplayer/blob/master/doc/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A%20-%20%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8.pdf)
+文档说明： [doc](https://github.com/littlegreedy/JavaFX-soplayer/blob/master/doc/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A%20-%20%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8final.pdf)
 
 直接运行： 把.jar和.ini两文件放在同目录下！
 * :paperclip: [点击下载可执行jar包和配置文件\(executable entire file\)](https://raw.githubusercontent.com/littlegreedy/beautyeye/master/demo/excute_jar/SwingSets2\(BeautyEyeLNFDemo\).jar)<font color="#FF6600"> \[推荐:thumbsup:\]</font>
