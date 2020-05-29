@@ -10,7 +10,7 @@ public class IniConfig {
 
     static String fileString=null;
     static{
-         fileString= "src\\pers\\ap\\soplayer\\controlpane\\config.ini";
+         fileString= "config.ini";
     }
     public  IniConfig()
     {

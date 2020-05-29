@@ -9,6 +9,9 @@
 
 文档说明： [doc](https://github.com/littlegreedy/JavaFX-soplayer/blob/master/doc/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A%20-%20%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8.pdf)
 
+直接运行： 把.jar和.ini两文件放在同目录下！
+* :paperclip: [点击下载可执行jar包和配置文件\(executable entire file\)](https://raw.githubusercontent.com/littlegreedy/beautyeye/master/demo/excute_jar/SwingSets2\(BeautyEyeLNFDemo\).jar)<font color="#FF6600"> \[推荐:thumbsup:\]</font>
+
 ****
 
 **已实现模块：**
@@ -23,11 +26,16 @@
 - 支持歌单列表控制 
 - sqlite数据库支持（sqlite-jdbc-3.7.2.jar）
 
+！[]()
+
+！[]()
+
 **运行环境：**
 
  Java(TM) SE Runtime Environment (build 1.8.0_241b07) 
 
 ****
+
 
  **Copyright © 2020 littlegreedy**  
 
@@ -43,7 +51,7 @@
 
 Update 1.0 测试
 
-Bug：FileInputStream无法读取来自数据库的歌词文件
+Bug：FileInputStream无法二次读取来自数据库的歌词文件
 
 
 
